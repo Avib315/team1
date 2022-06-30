@@ -1,8 +1,9 @@
 
 import { Outlet, Route, Routes } from "react-router-dom"
-import Context from "../../context";
+// import Context from "../../context";
 import Dashboard from "../../pages-order/Dashboard"
 import { SignUp, } from "../../pages-order/signup/index"
+import Test from "../Test/Test";
 import { } from "../../pages-order/admin"
 import { } from "../../pages-order/firstAssessement"
 import { } from "../../pages-order/freeStyle"

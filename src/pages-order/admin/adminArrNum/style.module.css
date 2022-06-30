@@ -1,0 +1,44 @@
+.mainDiv {
+    width: 28px;
+    height: 28px;
+
+    margin: auto;
+    margin-top: 40px;
+}
+
+.backDiv {
+    width: 35px;
+    height: 33px;
+    position: relative;
+    border: 2px black solid;
+    background-color: #7D56A5;
+    transform: rotate(6deg);
+    border-radius: 5px;
+}
+
+.frontDiv {
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px black solid;
+    transform: rotate(-6deg);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.clickd {
+    background-color: #F39C12;
+    cursor: none;
+    cursor: pointer;
+}
+
+.notClickd {
+    background-color: white;
+    cursor: none;
+    cursor: pointer;
+}

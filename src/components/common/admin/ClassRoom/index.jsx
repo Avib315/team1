@@ -1,7 +1,7 @@
 import styles from './style.module.css'
 import AdminTableRow from './tableRow'
 import arr from './fakeData.json'
-import DivCompicated from '../../../components/common/DivCompicated'
+import DivCompicated from '../../../common/DivCompicated/index'
 // Creator : Team 1 - Avi 
  // yuda work
 
@@ -17,11 +17,13 @@ function AdminTable(props) {
                     <span className={styles.allFlexItem}>Action</span>
                 </div>
             </div>
-            {arr.map((v, i) => < DivCompicated isLeft={true} classInternal={styles.arrDiv}></DivCompicated>)}
+            {arr.map((v, i) => < DivCompicated isLeft={true}
+             classInternal={styles.arrDiv}>
+                
+             </DivCompicated>)}
         </div>
 
     </>
 }
-
 
 export default AdminTable

@@ -14,7 +14,7 @@ import styles from './style.module.css'
 //יש לרשום עם תווית פתוחה וסגורה ומה שיופיע בפנים ייכנס בתוך הדיב
 
 function DivCompicated(props) {
-    return (<div className={`${styles.all ?? ""} ${props.classAll ?? ""}`} style={props.styleAll}>
+    return (<div className={`${props.classAll ?? ""} ${styles.all ?? ""}`} style={props.styleAll}>
         <div style={props.styleBack} className={`${styles.backDiv} ${props.isLeft ? styles.left : styles.right} ${props.classBack ?? ""}`}>
             <div style={props.styleInsternal} className={`${styles.internalDiv} ${props.isLeft ? styles.left : styles.right} ${props.classInternal ?? ""} `}>
 
