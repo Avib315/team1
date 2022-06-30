@@ -1,6 +1,5 @@
 
 import { Outlet, Route, Routes } from "react-router-dom"
-import Context from "../../context";
 import Dashboard from "../../pages-order/Dashboard"
 import { SignUp, } from "../../pages-order/signup/index"
 import { } from "../../pages-order/admin"
@@ -10,6 +9,9 @@ import { } from "../../pages-order/levelExercise/index"
 import { } from "../../pages-order/setting"
 import { } from "../../pages-order/trainFocus"
 import { } from "../../pages-order/trainReading"
+import Test from "../test/Test"
+import AdminLogIn from "../../pages-order/admin/Login"
+import AdminTableRow from "../../pages-order/admin/Classroom/tableRow"
 
 function Content() {
     return <>
@@ -55,11 +57,13 @@ function Content() {
 
 
             {/* admin - desktop*/}
-            <Route path="/admin" element={<><h1> protected - route - admin  </h1><Outlet /></>}>
+            <Route path="/admin" element={<><h1> security </h1><Outlet /></>}>
+                <Route path="login" element={<AdminLogIn/>} />
+                <Route path="classID" element={<AdminTableRow/>} />
                 <Route path="add-remove-teacher" element={<>add-remove-teacher</>} />
             </Route>
 
-            <Route path='/test' element={<Test />} />
+            <Route path='/test' element={<Test/>} />
         </Routes>
     </>
 }

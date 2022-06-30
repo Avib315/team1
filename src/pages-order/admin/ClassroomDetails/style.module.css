@@ -1,0 +1,102 @@
+.all {
+    height: 800px;
+    width: 900px;
+    margin-top: 48px;
+    margin-left: 430px;
+    max-width: 100%;
+}
+
+.stylrIn {
+    padding: 20px;
+}
+
+.divHH {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spanH3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.spanH1 {
+    color: #7d56a5;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.testassessment {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2994a;
+    width: 100%;
+    height: 50px;
+    border: 1.5px solid #252525;
+    border-radius: 20px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.testFocus {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background: #35BFEA;
+    border: 1.5px solid #252525;
+    border-radius: 20px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.testRidin {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background: #7D56A5;
+    border: 1.5px solid #252525;
+    border-radius: 20px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.ditels {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.scor {
+    width: 28%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
